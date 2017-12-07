@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    margin: 0 auto;
+}
+
+.page-wrapper {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+li,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 3px;
+    padding: 0px 5px;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 15px;
+}
+
+h1 {
+    font-size: 2.85rem;
+    line-height: 2.85rem;
+}
+
+h2 {
+    font-size: 1.65rem;
+    line-height: 1.65rem;
+}
+
+h3 {
+    font-size: 1.45rem;
+    line-height: 1.45rem;
+}
+
+p {
+    margin: 20px 0px;
+}
+
+.intro h2 {
+    margin-top: 20px;
+}
+
+footer a {
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    display: block;
+}
+
+footer a::after {
+    content: attr(title);
+    background: white;
+    color: #000;
+    display: block;
+    border-radius: 3px;
+}
+
+.wrapper li {
+    display: block;
+    padding: 10px 15px;
+}
+
+.design-selection {
+    text-align: left;
+}
+
+.design-name {
+    background-color: #000;
+    color: #fff;
+}
+
+.designer-name {
+    background: white;
+    color: #000;
+    display: block;
+    border-radius: 3px;
+}
+
+.zen-resources a,
+.design-archives a {
+    color: white;
+    background: none;
+}
